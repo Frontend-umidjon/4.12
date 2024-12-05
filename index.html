@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soccers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <h1>Soccers List</h1>
+            <div class="top__actions">
+                <button class="random__add">Add Random Soccer <i class="fa-solid fa-shuffle"></i></button>
+                <button class="add__player">Add Soccer<i class="fa-solid fa-circle-plus"></i></button>
+            </div>
+        </div>
+        <div class="modal">
+            <div class="modal__content">
+                <h2>Fill information blank about soccer below</h2>
+                <form>
+                    <input  required   type="text" placeholder="Name">
+                    <input  required  type="text" placeholder="Age">
+                    <input  required  type="text" placeholder="Birthdate">
+                    <input  required  type="text" placeholder="Country">
+                    <input  required  type="text" placeholder="Club">
+                    <input  required  type="text" placeholder="Reputation">
+                    <button  type="submit">Add Soccer</button>
+                </form>
+                <button class="close__modal">Cancel</button>
+            </div>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Birthdate</th>
+                    <th>Country</th>
+                    <th>Club</th>
+                    <th>Reputation</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Cristiano Ronaldo</td>
+                    <td>36</td>
+                    <td>1985-07-05</td>
+                    <td>Portugal</td>
+                    <td>Real Madrid</td>
+                    <td>High</td>
+                </tr>
+                <tr>
+                    <td>Lionel Messi</td>
+                    <td>30</td>
+                    <td>1987-06-24</td>
+                    <td>Argentina</td>
+                    <td>Barcelona</td>
+                    <td>Very High</td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
